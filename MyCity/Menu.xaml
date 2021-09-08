@@ -5,9 +5,9 @@
              x:Class="MyCity.Menu">
 
     <Shell.FlyoutHeader>
-        <Grid ColumnDefinitions="1*,2*" RowDefinitions="Auto, Auto">
+        <Grid Padding="0, 30" BackgroundColor="{StaticResource PrimaryColor}" ColumnDefinitions="1*,2*" RowDefinitions="Auto, Auto">
             <Image Source="BagWhite" Grid.RowSpan="2" Grid.Column="0"></Image>
-            <Label Text="Bem vindo! ao" Grid.Column="1" Grid.Row="0"></Label>
+            <Label Text="Bem vindo! ao" Grid.Column="1" Grid.Row="0" Style="{StaticResource MenuHeaderLabel}"></Label>
             <Image Source="LogoWhite" HorizontalOptions="Start" Grid.Column="1" Grid.Row="1"></Image>
         </Grid>
     </Shell.FlyoutHeader>
