@@ -8,7 +8,7 @@ namespace MyCity.Services
 {
     public class EstablishmentServices
     {
-        public List<Establishment> GetEstablishment()
+        public List<Establishment> GetEstablishments()
         {
             var ListEstablishments = new List<Establishment>()
             {
